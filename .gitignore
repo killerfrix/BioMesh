@@ -1,0 +1,94 @@
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ---- Editors / IDE ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# ---- Environment / secrets ----
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ---- Node.js / TypeScript (future web app under software/, tooling scripts) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+*.tsbuildinfo
+.npm/
+
+# ---- Next.js (future website) ----
+.next/
+out/
+next-env.d.ts
+
+# ---- NestJS / general JS-TS build output ----
+dist/
+build/
+
+# ---- Deployment platforms ----
+.vercel/
+.netlify/
+
+# ---- Monorepo tooling caches (Turborepo / Nx), in case software/ grows into one ----
+.turbo/
+.nx/cache/
+
+# ---- Testing / coverage ----
+coverage/
+.nyc_output/
+
+# ---- Python (data scripts, scrapers, validators) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- Firmware (ESP32 / Arduino / PlatformIO / ESP-IDF) ----
+**/.pio/
+firmware/**/build/
+firmware/**/.vscode/
+sdkconfig.old
+
+# ---- Hardware CAD (KiCad / Fusion 360 / FreeCAD) ----
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.lck
+*.FCBak
+
+# ---- Logs / temp ----
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# ---- Large local data (raw sensor dumps, images) not meant for git history ----
+# Datasets meant to be published stay tracked in datasets/ once that folder
+# exists — this only covers scratch/working copies, not the real dataset.
+*.local.csv
+*.local.json
+
+# ---- Claude ----
+.claude/settings.local.json
+.claude/*.local.json

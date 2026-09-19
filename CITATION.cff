@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: BioMesh
+abstract: >-
+  Open, modular infrastructure for reproducible biodiversity measurement
+  (botany, mycology, ecology).
+authors:
+  - given-names: "Jose Alejandro"
+    family-names: "Torres Flores"
+    email: jose.torres.dev04@gmail.com
+license: MIT
+# TODO: add date-released once there's an actual tagged release
+# TODO: add repository-code once the repository has a GitHub remote
