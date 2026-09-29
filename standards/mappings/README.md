@@ -15,7 +15,7 @@ document that answers:
 
 | Standard | File | Status |
 |---|---|---|
-| Darwin Core | [darwin-core.md](darwin-core.md) | pending |
+| Darwin Core | [darwin-core.md](darwin-core.md) | draft |
 | MIAPPE | [miappe.md](miappe.md) | pending |
 | BrAPI | [brapi.md](brapi.md) | pending |
 | ISA (Investigation-Study-Assay) | [isa.md](isa.md) | pending |
