@@ -14,8 +14,9 @@ hierarchy.
 
 ## Relationship to other standards
 
-- TODO: mapping between MIAPPE's `Observation Unit` and Darwin Core's
-  `Occurrence`/`Event`.
+- Darwin Core: a proposed mapping of the `Observation Unit` to
+  `Organism`/`Location`, with each measurement session as an `Event`, is in
+  [darwin-core.md](darwin-core.md#miappe) (draft).
 - TODO: relationship to BrAPI (MIAPPE defines the model, BrAPI can expose
   it via API).
 
